@@ -1,98 +1,84 @@
-Calorie Hub – Personalized Calorie Tracking and Nutrition Assistant 🥗🍎
-📌 Project Overview
-Calorie Hub is a full-stack web application designed to help users effectively track their daily calorie intake and maintain a healthy lifestyle. The platform combines intuitive UI design with interactive data visualizations and a curated recipe library to support personalized dietary goals — whether for weight management, muscle gain, or overall wellness.
+# **Calorie Hub – Personalized Calorie Tracking and Nutrition Assistant** ⚙️📊
 
-This project was built as part of a group collaboration, with a focus on implementing clean architecture, scalable database design, and user-centric interfaces.
+## 📘 Project Overview  
+Calorie Hub is a full-stack web application that enables users to monitor daily calorie intake, explore healthy recipes, and visualize dietary trends. Built to support users in achieving fitness goals — whether it's weight management, muscle gain, or overall health — the platform integrates interactive charts, intuitive UI, and personalized insights.
 
-🚀 Key Features
-🔹 Daily Calorie Logging
-Add, edit, and delete food entries with nutritional values.
+This application was developed as part of a team project, with each member contributing to core modules in frontend, backend, and database architecture.
 
-View historical calorie logs by day, week, or month.
+---
 
-🔹 Recipe Recommendations
-Access a library of curated, calorie-conscious recipes.
+## 🚀 Key Features
 
-View ingredients, instructions, and detailed nutrition info.
+### 📝 Daily Calorie Logging  
+- Add, update, and delete food intake entries.  
+- Track nutritional data over time (daily/weekly/monthly).
 
-🔹 Visual Insights
-Track calorie trends and intake using interactive charts.
+### 🍴 Recipe Suggestions  
+- Browse curated, healthy recipes with full nutritional breakdown.  
+- Filter suggestions based on calorie limits and diet goals.
 
-Graphs include calories burned by activity and average consumption.
+### 📈 Data Visualization  
+- Dynamic charts for calorie trends and burn rate.  
+- Graphs powered by Chart.js to aid in dietary decision-making.
 
-🔹 Multi-User Support
-User-specific tracking and preferences.
+### 👤 Multi-User Support  
+- Scalable user-specific tracking.  
+- Foundation built for future authentication modules.
 
-Designed for future integration with authentication systems.
+### 💡 Health Insights  
+- General wellness tips and reminders.  
+- Smart diet suggestions tailored to goals.
 
-🔹 Wellness Tips & Personal Insights
-General health guidelines.
+---
 
-Personalized suggestions based on user goals.
+## 💻 My Contributions  
+- Developed calorie tracking and recipe modules using ASP.NET Core MVC.  
+- Integrated Chart.js to provide interactive, real-time data visualizations.  
+- Configured and connected Azure SQL Database for storing user and recipe data.  
+- Boosted code coverage from 20% to 80% by writing unit and integration tests.  
+- Implemented responsive frontend elements using Bootstrap 5 and jQuery.
 
-💻 My Contributions
-As part of the project, I was responsible for:
+---
 
-Designing and implementing calorie tracking modules using ASP.NET Core (MVC).
+## 🛠️ Technology Stack
 
-Building dynamic chart visualizations using Chart.js.
+### Frontend:  
+🔹 HTML, CSS, Bootstrap  
+🔹 JavaScript, jQuery  
 
-Managing backend integrations with Azure SQL Database.
+### Backend:  
+🔹 ASP.NET Core (C#)  
+🔹 MVC Architecture with RESTful APIs  
+🔹 Entity Framework Core ORM  
 
-Contributing to responsive UI development using Bootstrap and jQuery.
+### Database & Deployment:  
+🔹 Microsoft SQL Server  
+🔹 Azure Web App & Azure SQL  
 
-🏗️ Tech Stack
-Frontend:
+### Tools & Libraries:  
+🔹 Chart.js – Interactive graphs  
+🔹 Visual Studio 2022  
+🔹 Git & GitHub – Version control  
 
-HTML, CSS, Bootstrap
+---
 
-JavaScript, jQuery
+## 📦 Installation & Setup
 
-Backend:
+### ✅ Prerequisites  
+- .NET 8.0 SDK  
+- SQL Server (local/Azure)  
+- Visual Studio 2022 / VS Code
 
-ASP.NET Core (C#), MVC Architecture
-
-Entity Framework Core
-
-RESTful Web APIs
-
-Database & Hosting:
-
-Microsoft SQL Server
-
-Azure Web App & Azure SQL
-
-Libraries & Tools:
-
-Chart.js (Data visualization)
-
-Visual Studio 2022
-
-Git for version control
-
-🔧 Getting Started
-⚙️ Prerequisites
-.NET 8.0 SDK
-
-SQL Server (local or Azure)
-
-Visual Studio 2022 / Visual Studio Code
-
-🛠️ Setup Instructions
-bash
-Copy
-Edit
+### 🧩 Setup Instructions
+```bash
 git clone https://github.com/your-username/calorie-hub.git
 cd calorie-hub
 dotnet restore
 dotnet ef database update
 dotnet run
-Access the application locally via: https://localhost:5001
 
-📈 Planned Enhancements
-
-🔗 Integration with third-party fitness APIs
-
-🧠 AI-powered meal recommendations
-
-📊 Weekly/monthly health summary reports
+## 🔭 Future Enhancements  
+🔐 User authentication & secure login  
+🔄 API integration with fitness and activity trackers  
+🧠 AI-driven meal suggestions  
+📊 Progress reports and meal planning assistant

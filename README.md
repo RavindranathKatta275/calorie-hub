@@ -76,6 +76,7 @@ cd calorie-hub
 dotnet restore
 dotnet ef database update
 dotnet run
+```
 
 ## 🔭 Future Enhancements  
 🔐 User authentication & secure login  
